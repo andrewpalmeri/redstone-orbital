@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /posts/starship-reaches-orbit-as-artemis-iii-slips-and-golden-dome-gains-arctic-authority.html
+Disallow: /sitemap.xml
