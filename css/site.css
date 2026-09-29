@@ -71,11 +71,19 @@ img { max-width: 100%; height: auto; }
 .brand {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.15rem;
   text-decoration: none;
   color: var(--text);
 }
 .brand:hover { text-decoration: none; color: var(--text); }
+.brand-logo {
+  display: block;
+  height: 48px;
+  width: auto;
+  max-width: min(240px, 55vw);
+  object-fit: contain;
+  object-position: left center;
+}
 .brand-mark {
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -83,12 +91,19 @@ img { max-width: 100%; height: auto; }
   text-transform: uppercase;
   color: var(--text);
 }
-.brand-mark span { color: var(--accent); }
+.brand-mark span { color: #e11d2e; }
 .brand-sub {
   font-size: 0.72rem;
   color: var(--text-dim);
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.footer-logo {
+  display: block;
+  height: 40px;
+  width: auto;
+  margin: 0 auto 0.75rem;
+  object-fit: contain;
 }
 
 .nav {
