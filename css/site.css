@@ -123,7 +123,7 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
 }
 
-.example-banner {
+.draft-banner, .example-banner {
   background: var(--accent-soft);
   border-bottom: 1px solid var(--border);
   color: var(--text-muted);
@@ -132,7 +132,8 @@ img { max-width: 100%; height: auto; }
   padding: 0.45rem 1rem;
   letter-spacing: 0.02em;
 }
-.example-banner strong { color: var(--gold); font-weight: 600; }
+.draft-banner strong, .example-banner strong { color: var(--gold); font-weight: 600; }
+.draft-banner { background:#3b1d08; color:#ffd7a8; }
 
 main {
   max-width: var(--wide);
