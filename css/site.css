@@ -272,6 +272,18 @@ main {
   line-height: 1.5;
   font-weight: 400;
 }
+.article-hero {
+  margin: 0 0 1.75rem;
+}
+.article-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+
 .article-meta {
   display: flex;
   flex-wrap: wrap;
